@@ -27,6 +27,7 @@ public class ActionClass1 {
          
          WebElement DoubleClick = driver.findElement(By.xpath("//button[text()='Double-Click Me To See Alert']"));
          Ac.doubleClick(DoubleClick).perform();
+         System.out.println("Hi.......");
 	}
 
 }
