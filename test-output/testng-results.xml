@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TC is Failed and TC name isValidateUsername]]>
+    </line>
+    <line>
+      <![CDATA[TC is Failed and TC name isValidateUsername]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-07-21T16:39:56 IST" name="Suite" finished-at="2022-07-21T16:40:26 IST" duration-ms="29847">
+    <groups>
+    </groups>
+    <test started-at="2022-07-21T16:39:56 IST" name="Test" finished-at="2022-07-21T16:40:13 IST" duration-ms="17346">
+      <class name="TestNGKite.TestKite">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:TestNGKite.TestKite@6e6f2380]" started-at="2022-07-21T16:39:56 IST" name="LaunchBrowser" finished-at="2022-07-21T16:40:10 IST" duration-ms="14350" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="loginKite()[pri:0, instance:TestNGKite.TestKite@6e6f2380]" started-at="2022-07-21T16:40:10 IST" name="loginKite" finished-at="2022-07-21T16:40:11 IST" duration-ms="1172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginKite -->
+        <test-method signature="ValidateUsername()[pri:0, instance:TestNGKite.TestKite@6e6f2380]" started-at="2022-07-21T16:40:11 IST" name="ValidateUsername" finished-at="2022-07-21T16:40:12 IST" duration-ms="929" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at TestNGKite.TestKite.ValidateUsername(TestKite.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TC is Failed and TC name isValidateUsername]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUsername -->
+        <test-method is-config="true" signature="LogoutKite()[pri:0, instance:TestNGKite.TestKite@6e6f2380]" started-at="2022-07-21T16:40:13 IST" name="LogoutKite" finished-at="2022-07-21T16:40:13 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutKite -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestNGKite.TestKite@6e6f2380]" started-at="2022-07-21T16:40:13 IST" name="CloseBrowser" finished-at="2022-07-21T16:40:13 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNGKite.TestKite -->
+    </test> <!-- Test -->
+    <test started-at="2022-07-21T16:40:13 IST" name="Test1" finished-at="2022-07-21T16:40:26 IST" duration-ms="12475">
+      <class name="TestNGKite.TestKite">
+        <test-method is-config="true" signature="LaunchBrowser(java.lang.String)[pri:0, instance:TestNGKite.TestKite@28261e8e]" started-at="2022-07-21T16:40:13 IST" name="LaunchBrowser" finished-at="2022-07-21T16:40:23 IST" duration-ms="9386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method is-config="true" signature="loginKite()[pri:0, instance:TestNGKite.TestKite@28261e8e]" started-at="2022-07-21T16:40:23 IST" name="loginKite" finished-at="2022-07-21T16:40:24 IST" duration-ms="1559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginKite -->
+        <test-method signature="ValidateUsername()[pri:0, instance:TestNGKite.TestKite@28261e8e]" started-at="2022-07-21T16:40:24 IST" name="ValidateUsername" finished-at="2022-07-21T16:40:24 IST" duration-ms="72" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: null
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.fail(Assert.java:106)
+at TestNGKite.TestKite.ValidateUsername(TestKite.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[TC is Failed and TC name isValidateUsername]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidateUsername -->
+        <test-method is-config="true" signature="LogoutKite()[pri:0, instance:TestNGKite.TestKite@28261e8e]" started-at="2022-07-21T16:40:24 IST" name="LogoutKite" finished-at="2022-07-21T16:40:25 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutKite -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestNGKite.TestKite@28261e8e]" started-at="2022-07-21T16:40:25 IST" name="CloseBrowser" finished-at="2022-07-21T16:40:26 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNGKite.TestKite -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
